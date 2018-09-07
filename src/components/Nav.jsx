@@ -1,9 +1,13 @@
 import React from 'react';
 import UserAvatar from './UserAvatar';
+import { PageHeader } from 'react-bootstrap';
 
 const Nav = () => (
   <div className="nav">
-    <UserAvatar size="small" />
+    <PageHeader>
+      Example page header <small>Subtext for header</small>
+      <UserAvatar size="small" />
+    </PageHeader>;
   </div>
 );
 

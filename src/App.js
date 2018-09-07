@@ -8,7 +8,7 @@ class App extends Component {
 
   state = {
     user: {
-      avatar: "",
+      avatar: "img/comingsoon.jpg",
       name: "test",
       followers: 1234,
       following: 123
